@@ -1,0 +1,26 @@
+//css reset
+@import "base";
+
+//font-family: 'Noto Sans TC', sans-serif;
+//font-family: 'Roboto', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap');
+
+@import "variable";
+@import "layout";
+
+//form
+@import "./form/control";
+@import "./form/check";
+@import "./form/select";
+
+//components
+@import "component";
+
+//utilties
+@import "utilities";
+
+//pages
+@import "./pages/index";
+@import "./pages/product";
+@import "./pages/store"
+

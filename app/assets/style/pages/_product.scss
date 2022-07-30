@@ -1,0 +1,28 @@
+.banner-height {
+    height: 296px;
+    object-fit: cover;
+}
+
+.color-box{
+    &-darkBrown {
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+        background-color: $brown-dark;
+    }
+
+    &-brown {
+        width: 24px;
+        height: 24px;
+        border-radius: 4px;
+        background-color: $brown;
+    }
+}
+
+@media (max-width: $mobile) {
+    
+    .banner-height {
+        height: auto;
+    }
+    
+}

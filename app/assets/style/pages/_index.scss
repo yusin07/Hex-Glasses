@@ -1,0 +1,43 @@
+.landing-bg {
+    height: 707px;
+    background-image: url("../images/home-header.png");
+    background-position: center left;
+    background-size: cover;
+}
+
+.landing-bg2 {
+    height: 100%;
+    background-image: url("../images/index-bg.png");
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.card {
+    box-shadow: 0px 2px 6px #00000029;
+    border-radius: 4px;
+    border: 1px solid #DEE2E6;
+}
+
+.social-img {
+    width: 48px;
+}
+
+@media (max-width: $tablet) {
+
+    .social-img {
+        width: 40px;
+    }
+}
+
+@media (max-width: $mobile) {
+    .landing-bg {
+        height: 396px;
+        background-image: url("../images/home-header-sm.png");
+    }
+
+    .social-img {
+        width: 24px;
+    }
+
+}
