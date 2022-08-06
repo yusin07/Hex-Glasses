@@ -36,21 +36,22 @@
     margin: 0 auto;
     display: flex;
 
+    li:first-child &-btn {
+        margin-left: 0px;
+    }
+
+
     &-btn {
         display: block;
         font-family: "Roboto";
         font-size: 32px;
         font-weight: 500;
         padding: 22px 0;
-        margin-left: -1px;
         border: 1px solid #DCDCDC;
+        margin-left: -1px;
         text-align: center;
         position: relative;
         overflow: hidden;
-
-        :not(:first-child) a {
-            margin-left: 0;
-        }
 
         &::after {
             content:"";
@@ -89,18 +90,18 @@
 .pagnation {
     display: flex;
 
+    li:first-child .page-btn {
+        margin-left: 0px;
+    }
+
     .page-btn {
         font-size: 18px;
         display: block;
         color: #555555;
         border: 1px solid #555555;
-        padding: 12px 16px;
         margin-left: -1px;
+        padding: 12px 16px;
         transition: ease-in-out .2s;
-
-        :not(:first-child) a {
-            margin-left: 0;
-        }
     }
 
     .page-btn:hover {
