@@ -42,11 +42,15 @@
         font-size: 32px;
         font-weight: 500;
         padding: 22px 0;
-        margin-right: -1px;
+        margin-left: -1px;
         border: 1px solid #DCDCDC;
         text-align: center;
         position: relative;
         overflow: hidden;
+
+        :not(:first-child) a {
+            margin-left: 0;
+        }
 
         &::after {
             content:"";
@@ -91,9 +95,12 @@
         color: #555555;
         border: 1px solid #555555;
         padding: 12px 16px;
-        margin-right: -1px;
-        margin-bottom: -1px;
+        margin-left: -1px;
         transition: ease-in-out .2s;
+
+        :not(:first-child) a {
+            margin-left: 0;
+        }
     }
 
     .page-btn:hover {
